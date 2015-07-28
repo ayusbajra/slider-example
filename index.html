@@ -1,0 +1,95 @@
+<html>
+<head>
+	<title>Slider Example</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/layout.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1>First Slider</h1>
+	<div id= "img-slider" class="slider1">
+		<div class="insideSlider">
+			<div>
+				<img src="images/a.png">
+			</div>
+			<div>
+				<img src="images/b.png">
+			</div>
+			<div>
+				<img src="images/c.png">
+			</div>
+			<div>
+				<img src="images/d.jpg">
+			</div>
+			<div>
+				<img src="images/e.jpg">
+			</div>
+		</div>
+		<div id="buttons" class="buttons">
+			<div id="btnLeft"><img src="images/slider-left.png"></div>
+			<div id="btnRight"><img src="images/slider-right.png"></div>
+		</div>
+		<div id="index-bar" class="index-bar"></div>
+	</div>
+<br>
+	<h1>Second Slider</h1>
+	<div id= "img-slider" class="slider2">
+		<div class="insideSlider">
+			<div>
+				<img src="images/a.png">
+			</div>
+			<div>
+				<img src="images/b.png">
+			</div>
+			<div>
+				<img src="images/c.png">
+			</div>
+			<div>
+				<img src="images/d.jpg">
+			</div>
+			<div>
+				<img src="images/e.jpg">
+			</div>
+		</div>
+		<div id="buttons" class="buttons">
+			<div id="btnLeft"><img src="images/slider-left.png"></div>
+			<div id="btnRight"><img src="images/slider-right.png"></div>
+		</div>
+		<div id="index-bar" class="index-bar"></div>
+	</div>
+<br>
+	<h1>Third Slider</h1>
+	<div id= "img-slider" class="slider3">
+		<div class="insideSlider">
+			<div>
+				<img src="images/a.png">
+			</div>
+			<div>
+				<img src="images/b.png">
+			</div>
+			<div>
+				<img src="images/c.png">
+			</div>
+			<div>
+				<img src="images/d.jpg">
+			</div>
+			<div>
+				<img src="images/e.jpg">
+			</div>
+		</div>
+		<div id="buttons" class="buttons">
+			<div id="btnLeft"><img src="images/slider-left.png"></div>
+			<div id="btnRight"><img src="images/slider-right.png"></div>
+		</div>
+		<div id="index-bar" class="index-bar"></div>
+	</div>
+
+<script src="js/slider.js" type="text/javascript"></script>
+<script>
+	var slider1 = new Slider({className:'slider1'});
+	var slider2 = new Slider({className:'slider2'});
+	var slider3 = new Slider({className:'slider3'});
+</script>
+</body>
+</html>

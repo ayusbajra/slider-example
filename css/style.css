@@ -1,0 +1,20 @@
+#btnLeft{
+	position: absolute;
+	opacity: 0.2;
+	top:120px;
+	left:10px;
+}
+#btnRight{
+	position: absolute;
+	opacity: 0.2;
+	top:120px;
+	left:890px;
+}
+#btnLeft:hover{
+	float:left;
+	opacity:0.6;
+}
+#btnRight:hover{
+	float:right;
+	opacity:0.6;
+}

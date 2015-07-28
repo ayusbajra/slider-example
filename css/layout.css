@@ -1,0 +1,18 @@
+#img-slider {
+	margin:0 auto;
+	width:960px;
+	overflow:hidden;
+	position: relative;
+}
+.insideSlider{
+	margin-left:0px;
+	width:50000px;
+	height:300px;
+}
+.insideSlider div{
+	float:left;
+}
+.index-bar{
+	position:absolute;
+	bottom:5px;
+}
